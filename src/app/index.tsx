@@ -11,5 +11,5 @@ export default function Index() {
   if (isSignedIn) {
     return <Redirect href={"/(protected)/(tabs)"} />;
   }
-  return <Redirect href="/sign-up" />;
+  return <Redirect href="/sign-in" />;
 }
